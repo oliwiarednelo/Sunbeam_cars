@@ -26,7 +26,7 @@ total = Math.abs(total + (urldata.get('carPrice')));
         const form = document.getElementById("form");
         form.reset(); 
         
-        const checkboxes = document.getElementsByClassName("slist"); 
+        const checkboxes = document.getElementsByClassName("acclist"); 
         form.addEventListener("submit", function(e) {
             e.preventDefault();
             let shoppinglist = []; 
